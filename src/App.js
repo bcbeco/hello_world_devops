@@ -7,6 +7,7 @@ function App() {
     }}>
       <h1>Hello World DevOps! 🚀</h1>
       <p>Ez az első verzió</p>
+      <p><strong>Version: 1.0.0</strong></p>
     </div>
   );
 }
