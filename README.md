@@ -6,6 +6,10 @@ Docker Hub link: https://hub.docker.com/r/bcbeco/hello_world_devops
 
 docker pull bcbeco/hello_world_devops:latest
 
+# Build
+
+docker build -t hello_world_devops:v1 .
+
 # Futtatás
 
 docker run -p 8080:3000 bcbeco/hello_world_devops:latest
